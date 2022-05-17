@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(
+       to left,
+       rgb(69, 197, 236),
+       rgb(241, 197, 197),
+       rgb(69, 197, 236)
+
+    ) ;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px aqua;
+}
+button{
+
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(71, 219, 224);
+    padding: 5px 5px;
+    border-radius: 20px;
+    
+}
+.button_ctn{
+    display: flex;
+    justify-content: space-between;
+}
+.component{
+    height: 250px;
+    width: 350px;
+    background-color: cyan;
+    border: 2px;
+    border-radius: 20px;
+    text-align: center;
+}
